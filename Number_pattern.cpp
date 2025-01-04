@@ -40,6 +40,24 @@ int main()
     321
     4321
     */
+
+    //Floyed triangle pattern
+    int count = 1;
+    for(int i = 1 ; i < n+1 ; i++)
+    {
+        for(int j=0 ; j < i ; j++)
+        {
+            cout << count;
+            count = count + 1;
+        }
+    }
+    /*
+    1
+    23
+    456
+    78910
+    */
+    
     
     
     return 0 ;
