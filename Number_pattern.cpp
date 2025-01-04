@@ -19,6 +19,7 @@ int main()
     return 0 ;
 }
 /*
+n = 4
 1
 12
 123
