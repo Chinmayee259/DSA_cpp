@@ -41,7 +41,7 @@ int main()
     4321
     */
 
-    //Floyed triangle pattern
+    //Floyd's triangle pattern
     int count = 1;
     for(int i = 1 ; i < n+1 ; i++)
     {
