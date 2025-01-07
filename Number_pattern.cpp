@@ -23,7 +23,7 @@ int main()
     12
     123
     1234
-    *\
+    */
 
    //Reverse triangle
     for(int i = 1 ; i < n+1 ; i++)
@@ -57,9 +57,38 @@ int main()
     456
     78910
     */
-    
-    
-    
+
+    //Inverse Triangle Pattern
+    for (int i = 1 ; i <= n ; i++)
+    {
+        for (int j = n ; j > i ; j--)
+        {
+            cout << " ";
+        }
+        
+        for (int k = 1 ; k <= i ; k++)
+        {
+            cout << k;
+        }
+        
+        for (int m = i-1 ; m >= 1 ; m--)
+        {
+            cout << m;
+        }
+        for (int l = n ; l > i ; l--)
+        {
+            cout << " ";
+        }
+        
+        
+        cout << endl;
+    }
+    /*
+       1
+      121
+     12321
+    1234321
+    */
     return 0 ;
 }
 
