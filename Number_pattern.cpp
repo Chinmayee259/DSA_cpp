@@ -74,13 +74,7 @@ int main()
         for (int m = i-1 ; m >= 1 ; m--)
         {
             cout << m;
-        }
-        for (int l = n ; l > i ; l--)
-        {
-            cout << " ";
-        }
-        
-        
+        }        
         cout << endl;
     }
     /*
