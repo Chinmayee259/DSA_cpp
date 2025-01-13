@@ -1,3 +1,4 @@
+//Addition of first n natural numbers using function
 #include <iostream>
 using namespace std;
 int add(int n)
@@ -16,3 +17,7 @@ int main() {
     cout << "The addition of first " << n << " natural numbers is " << add(n) << endl;
     return 0;
 }
+
+/*
+Enter the a natural number n : 5
+The addition of first 5 natural numbers is 15
