@@ -1,3 +1,5 @@
+// to calculate binomial expantion using nCr = n! / r!(n-r)!
+
 #include<iostream>
 using namespace std;
 
@@ -19,7 +21,7 @@ int Fact(int n)
 }
 
 
-int binomial(int n , int r)
+int nCr(int n , int r)
 {
     int C = Fact(n) / ( Fact(r) * Fact(n-r));
     return C;
@@ -31,6 +33,11 @@ int main(){
     cin >> n;
     cout << "Enter r : ";
     cin >> r;
-    cout << "nCr = " << binomial(n , r);
+    cout << "nCr = " << nCr(n , r);
     return 0;
 }
+
+// Output
+// Enter n : 5 
+// Enter r : 3
+// nCr = 10
