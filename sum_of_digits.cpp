@@ -1,3 +1,4 @@
+// To calculate the sum of digits in a number
 #include<iostream>
 using namespace std;
 
@@ -17,6 +18,9 @@ int main(){
     int n;
     cout << " Enter any number : ";
     cin >> n;
-    cout << Sum(n);
+    cout << " The sum of digits of "<< n << " is " << Sum(n);
     return 0;
 }
+
+// Enter any number : 145
+// The sum of digits of 145 is 10
