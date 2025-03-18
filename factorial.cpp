@@ -1,3 +1,4 @@
+// Factorial of n 
 #include<iostream>
 using namespace std;
 
@@ -30,4 +31,17 @@ int main()
         cout << "The factorial of " << n << " is "<<Fact(n) <<endl;
         
     }
+    return 0;
 }
+
+// Enter a number : 4
+// The Fctorial of 4 is 24
+
+// Enter a number : 0
+// The factorial of 0 is 1
+
+// Enter a number : 1
+// The factorial of 1 is 1
+
+// Enter a number : -9
+// The factorial cannot be calculated
