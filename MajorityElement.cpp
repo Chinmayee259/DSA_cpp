@@ -66,3 +66,6 @@ int main(){
     MajorityElement(nums);
     return 0;
 }
+
+//Output
+//1
